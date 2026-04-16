@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home12/lvcbeaut/public_html/connect.novexpeptides.clinic
+    - /bin/cp -R * $DEPLOYPATH
